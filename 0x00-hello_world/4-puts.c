@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *int main (void): a function to return integer
- * Return: program will execute successfully
+ *main - print a line of code using puts
+ * Return: 0
  */
 int main(void)
 {
