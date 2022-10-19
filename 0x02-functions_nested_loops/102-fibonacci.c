@@ -19,7 +19,7 @@ int main(void)
 		if (y != 49)
 			printf("%ld, ", fibo);
 		else
-			printf("%ld\n", fib);
+			printf("%ld\n", fibo);
 		a = b;
 		b = fibo;
 		y = += 1;
