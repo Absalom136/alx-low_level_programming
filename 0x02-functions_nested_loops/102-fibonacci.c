@@ -22,7 +22,7 @@ int main(void)
 			printf("%ld\n", fibo);
 		a = b;
 		b = fibo;
-		y = += 1;
+		y += 1;
 	}
 	return (0);
 }
