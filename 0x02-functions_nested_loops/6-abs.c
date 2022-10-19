@@ -2,14 +2,14 @@
 
 /**
  * _abs - function that computes absolute value of an integer
- * @y: the int in question
+ * @n: the int in question
  * Return: the abs of the int
  */
 
-int _abs(int y)
+int _abs(int n)
 {
-	if (y >= 0)
-		return (y);
+	if (n >= 0)
+		return (n);
 	else
-		return (-y);
+		return (-n);
 }
