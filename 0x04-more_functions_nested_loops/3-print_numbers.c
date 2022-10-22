@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for  (y = 0; y <= 9; y++)
 	{
-		_putchar((n % 10) + '0);
+		_putchar((y % 10) + '0);
 	}
 	_putchar('\n');
 }
