@@ -12,7 +12,6 @@ void print_numbers(void)
 	while (y < 10)
 	{
 		_putchar(y + '0');
-		y += 1;
 	}
 
 			_putchar('\n');
