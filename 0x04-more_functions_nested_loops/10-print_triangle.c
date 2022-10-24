@@ -7,11 +7,11 @@
 
 void print_triangle(int size)
 {
-	int i, tri;
+	int j, tri;
 
 	if (size > 0)
 	{
-		for (i = 1; j <= size; j++)
+		for (j = 1; j <= size; j++)
 		{
 			for (tri = size - j; tri > 0; tri--)
 
