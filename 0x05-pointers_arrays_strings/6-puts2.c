@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * puts2 - function that prints every other character
@@ -14,7 +14,7 @@ void puts2(char *str)
 		if ((i % 2) == 0)
 			_putchar(str[i]);
 		else
-			continue
+			continue;
 	}
 	_putchar('\n');
 }
